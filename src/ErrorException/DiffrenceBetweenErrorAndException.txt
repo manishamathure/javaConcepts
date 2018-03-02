@@ -1,0 +1,23 @@
+/**Difference Between Error Vs Exception In Java**/
+
+1)Errors:
+
+-Errors in java are of type java.lang.Error
+-All errors in java are unchecked type.
+-Errors happen at run time. They will not be known to compiler.
+-It is impossible to recover from errors.
+-Errors are mostly caused by the environment in which application is running.
+-Examples :
+java.lang.StackOverflowError, java.lang.OutOfMemoryError
+
+2)Exception:
+ 
+-Exceptions in java are of type java.lang.Exception.
+-Exceptions include both checked as well as unchecked type.
+-Checked exceptions are known to compiler where as unchecked exceptions are not known to compiler because they occur at run time.
+-You can recover from exceptions by handling them through try-catch blocks.
+-Exceptions are mainly caused by the application itself.
+-Examples :
+-Checked Exceptions : SQLException, IOException
+ Unchecked Exceptions : ArrayIndexOutOfBoundException, ClassCastException, NullPointerException
+
